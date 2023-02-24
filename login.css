@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Gravitas+One&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+:root{
+    --CorFonte:363636;
+
 }
 
 .fundoIMG{
@@ -24,8 +30,8 @@
 }
 
 .logoT{
-    width: 400px;
-    height: 400px;
+    width: 466px;
+    height: 466px;
 }
  
 .conteudo{
@@ -33,13 +39,30 @@
     z-index: 2;
     display: flex;
     justify-content: center;
+    margin-top:186px;
 }
 .conteudo-principal{
     display: flex;
     flex-direction: column;
     background-color: #F1F1F1;
-    padding:20px 30px 20px 20px ;
+    padding:26px 79px 20px 20px ;
+
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
 }
+
+.caixa-Registro{
+    width: 222px;
+}
+
+h4{
+    margin-bottom: 30px;
+    font-family:'Fira Mono', monospace;
+    font-weight: 500;
+    color:var(--CorFonte);
+    
+}
+
 label,a{
     display: flex;
 }
